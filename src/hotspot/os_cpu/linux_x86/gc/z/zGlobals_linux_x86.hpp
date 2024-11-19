@@ -87,4 +87,6 @@ const size_t    ZPlatformNMethodDisarmedOffset = 4;
 
 const size_t    ZPlatformCacheLineSize         = 64;
 
+const bool      ZPlatformLoadBarrierTestResultInRegister = false;
+
 #endif // OS_CPU_LINUX_X86_ZGLOBALS_LINUX_X86_HPP
