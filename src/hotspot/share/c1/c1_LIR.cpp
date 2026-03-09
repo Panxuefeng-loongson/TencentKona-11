@@ -2145,7 +2145,7 @@ void LIR_Op3::print_instr(outputStream* out) const {
 }
 
 
-#ifdef LOOGNARCH64
+#ifdef LOONGARCH64
 // LIR_Op4
 void LIR_Op4::print_instr(outputStream* out) const {
   if (code() == lir_cmp_cmove) {
